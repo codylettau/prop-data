@@ -1,0 +1,1150 @@
+?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled map</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>City of Brookfield</name>
+      <Placemark>
+        <name><![CDATA[BARROCK MITCHELL J & NANCY J]]></name>
+        <description><![CDATA[STATEID: 133BR C1011065005<br>PARCELID: BR C1011065005<br>PSTLADRESS: 13500 W CAPITOL DR STE 201, BROOKFIELD, WI 53005<br>SITEADRESS: 13500 W CAPITOL DR 104<br>PREFIX: W<br>STREETNAME: CAPITOL<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53005<br>STATE: WI<br>CNTASSDVAL: 11500<br>LNDVALUE: 3500<br>IMPVALUE: 8000<br>ESTFMKVALU: 11500<br>GISACRES: 0.91<br>CONAME: WAUKESHA<br>LONGITUDE: -88.08073892<br>LATITUDE: 43.08993631]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1011065005</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1011065005</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>13500 W CAPITOL DR STE 201, BROOKFIELD, WI 53005</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>13500 W CAPITOL DR 104</value>
+          </Data>
+          <Data name="PREFIX">
+            <value>W</value>
+          </Data>
+          <Data name="STREETNAME">
+            <value>CAPITOL</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53005.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>11500.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>3500.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>8000.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>11500.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>0.91</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.08073892</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.08993631</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.08073892,43.08993631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UNITARIAN UNIVERSALIST CHURCH</name>
+        <description><![CDATA[STATEID: 133BR C1101999<br>PARCELID: BR C1101999<br>PSTLADRESS: 13001 W NORTH AVE, BROOKFIELD, WI 53005<br>SITEADRESS: 13001 W NORTH AVE<br>PREFIX: W<br>STREETNAME: NORTH<br>STREETTYPE: AVENUE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53005<br>STATE: WI<br>CNTASSDVAL: 27200<br>LNDVALUE: 8000<br>IMPVALUE: 19200<br>ESTFMKVALU: 27100<br>GISACRES: 4.16<br>CONAME: WAUKESHA<br>LONGITUDE: -88.07514083<br>LATITUDE: 43.05968191]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1101999</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1101999</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>13001 W NORTH AVE, BROOKFIELD, WI 53005</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>13001 W NORTH AVE</value>
+          </Data>
+          <Data name="PREFIX">
+            <value>W</value>
+          </Data>
+          <Data name="STREETNAME">
+            <value>NORTH</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>AVENUE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53005.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>27200.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>8000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>19200.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>27100.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>4.16</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.07514083</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.05968191</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.07514083,43.05968191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COMMUNITY CARE INC ATTN 201238</name>
+        <description><![CDATA[STATEID: 133BR C1107999007<br>PARCELID: BR C1107999007<br>PSTLADRESS: 205 BISHOPS WAY, BROOKFIELD, WI 53005<br>SITEADRESS: 205 BISHOPS WAY<br>PREFIX: <br>STREETNAME: BISHOPS<br>STREETTYPE: WAY<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53005<br>STATE: WI<br>CNTASSDVAL: 45500<br>LNDVALUE: 14600<br>IMPVALUE: 30900<br>ESTFMKVALU: 45300<br>GISACRES: 3.02<br>CONAME: WAUKESHA<br>LONGITUDE: -88.08007932<br>LATITUDE: 43.0316243]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1107999007</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1107999007</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>205 BISHOPS WAY, BROOKFIELD, WI 53005</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>205 BISHOPS WAY</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>BISHOPS</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>WAY</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53005.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>45500.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>14600.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>30900.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>45300.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>3.02</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.08007932</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.0316243</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.08007932,43.0316243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HU XIA TRUST</name>
+        <description><![CDATA[STATEID: 133BR C1017093<br>PARCELID: BR C1017093<br>PSTLADRESS: 15735 W LISBON RD, BROOKFIELD, WI 53005<br>SITEADRESS: 15815 W LISBON RD<br>PREFIX: W<br>STREETNAME: LISBON<br>STREETTYPE: ROAD<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53005<br>STATE: WI<br>CNTASSDVAL: 74500<br>LNDVALUE: 70000<br>IMPVALUE: 4500<br>ESTFMKVALU: 74200<br>GISACRES: 0.83<br>CONAME: WAUKESHA<br>LONGITUDE: -88.10798597<br>LATITUDE: 43.10403344]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1017093</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1017093</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>15735 W LISBON RD, BROOKFIELD, WI 53005</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>15815 W LISBON RD</value>
+          </Data>
+          <Data name="PREFIX">
+            <value>W</value>
+          </Data>
+          <Data name="STREETNAME">
+            <value>LISBON</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>ROAD</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53005.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>74500.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>70000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>4500.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>74200.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>0.83</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.10798597</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.10403344</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.10798597,43.10403344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SPERANDIO PHILIP FERDINAND</name>
+        <description><![CDATA[STATEID: 133BR C1152127<br>PARCELID: BR C1152127<br>PSTLADRESS: 920 WEBSTER AVE, BROOKFIELD, WI 53005<br>SITEADRESS: 920 WEBSTER AVE<br>PREFIX: <br>STREETNAME: WEBSTER<br>STREETTYPE: AVENUE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53005<br>STATE: WI<br>CNTASSDVAL: 112000<br>LNDVALUE: 90000<br>IMPVALUE: 22000<br>ESTFMKVALU: 111500<br>GISACRES: 0.31<br>CONAME: WAUKESHA<br>LONGITUDE: -88.07053458<br>LATITUDE: 43.0213794]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1152127</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1152127</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>920 WEBSTER AVE, BROOKFIELD, WI 53005</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>920 WEBSTER AVE</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>WEBSTER</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>AVENUE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53005.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112000.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>90000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>22000.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>111500.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>0.31</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.07053458</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.0213794</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.07053458,43.0213794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GUHRING INC</name>
+        <description><![CDATA[STATEID: 133BR C1087125<br>PARCELID: BR C1087125<br>PSTLADRESS: 20295 INDEPENDENCE DR A, BROOKFIELD, WI 53045<br>SITEADRESS: 20295 INDEPENDENCE DR A<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 112500<br>LNDVALUE: 35000<br>IMPVALUE: 77500<br>ESTFMKVALU: 112100<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087125</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087125</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20295 INDEPENDENCE DR A, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20295 INDEPENDENCE DR A</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112500.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>77500.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>112100.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[MAURICE DANIEL & ROBERTA]]></name>
+        <description><![CDATA[STATEID: 133BR C1087129<br>PARCELID: BR C1087129<br>PSTLADRESS: 20215 INDEPENDENCE DR A, BROOKFIELD, WI 53045<br>SITEADRESS: 20215 INDEPENDENCE DR A<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 112500<br>LNDVALUE: 35000<br>IMPVALUE: 77500<br>ESTFMKVALU: 112100<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087129</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087129</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20215 INDEPENDENCE DR A, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20215 INDEPENDENCE DR A</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112500.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>77500.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>112100.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SMUKOWSKI KAREN J</name>
+        <description><![CDATA[STATEID: 133BR C1087133<br>PARCELID: BR C1087133<br>PSTLADRESS: 20245 INDEPENDENCE DR A, BROOKFIELD, WI 53045<br>SITEADRESS: 20245 INDEPENDENCE DR A<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 112500<br>LNDVALUE: 35000<br>IMPVALUE: 77500<br>ESTFMKVALU: 112100<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087133</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087133</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20245 INDEPENDENCE DR A, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20245 INDEPENDENCE DR A</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112500.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>77500.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>112100.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ZOBEL REVOCABLE LIVING TRUST K</name>
+        <description><![CDATA[STATEID: 133BR C1087141<br>PARCELID: BR C1087141<br>PSTLADRESS: 20185 INDEPENDENCE DR A, BROOKFIELD, WI 53045<br>SITEADRESS: 20185 INDEPENDENCE DR A<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 112500<br>LNDVALUE: 35000<br>IMPVALUE: 77500<br>ESTFMKVALU: 112100<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087141</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087141</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20185 INDEPENDENCE DR A, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20185 INDEPENDENCE DR A</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112500.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>77500.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>112100.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[OSSANNA DEAN D & LEE A]]></name>
+        <description><![CDATA[STATEID: 133BR C1087127<br>PARCELID: BR C1087127<br>PSTLADRESS: 20295 INDEPENDENCE DR C, BROOKFIELD, WI 53045<br>SITEADRESS: 20295 INDEPENDENCE DR C<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 112900<br>LNDVALUE: 35000<br>IMPVALUE: 77900<br>ESTFMKVALU: 112500<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087127</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087127</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20295 INDEPENDENCE DR C, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20295 INDEPENDENCE DR C</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112900.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>77900.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>112500.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BURKHARDT LORI J</name>
+        <description><![CDATA[STATEID: 133BR C1087128<br>PARCELID: BR C1087128<br>PSTLADRESS: 20295 INDEPENDENCE DR D, BROOKFIELD, WI 53045<br>SITEADRESS: 20295 INDEPENDENCE DR D<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 112900<br>LNDVALUE: 35000<br>IMPVALUE: 77900<br>ESTFMKVALU: 112500<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087128</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087128</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20295 INDEPENDENCE DR D, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20295 INDEPENDENCE DR D</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112900.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>77900.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>112500.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HORVATH KATHY M</name>
+        <description><![CDATA[STATEID: 133BR C1087131<br>PARCELID: BR C1087131<br>PSTLADRESS: 20215 INDEPENDENCE DR C, BROOKFIELD, WI 53045<br>SITEADRESS: 20215 INDEPENDENCE DR C<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 112900<br>LNDVALUE: 35000<br>IMPVALUE: 77900<br>ESTFMKVALU: 112500<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087131</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087131</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20215 INDEPENDENCE DR C, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20215 INDEPENDENCE DR C</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112900.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>77900.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>112500.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PERLEBERG MATTHEW S</name>
+        <description><![CDATA[STATEID: 133BR C1087136<br>PARCELID: BR C1087136<br>PSTLADRESS: 20245 INDEPENDENCE DR D, BROOKFIELD, WI 53045<br>SITEADRESS: 20245 INDEPENDENCE DR D<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 112900<br>LNDVALUE: 35000<br>IMPVALUE: 77900<br>ESTFMKVALU: 112500<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087136</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087136</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20245 INDEPENDENCE DR D, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20245 INDEPENDENCE DR D</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112900.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>77900.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>112500.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MICKEY EVELYN J</name>
+        <description><![CDATA[STATEID: 133BR C1087139<br>PARCELID: BR C1087139<br>PSTLADRESS: 20155 INDEPENDENCE DR C, BROOKFIELD, WI 53045<br>SITEADRESS: 20155 INDEPENDENCE DR C<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 112900<br>LNDVALUE: 35000<br>IMPVALUE: 77900<br>ESTFMKVALU: 112500<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087139</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087139</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20155 INDEPENDENCE DR C, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20155 INDEPENDENCE DR C</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112900.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>77900.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>112500.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WEISEL PAMELA J</name>
+        <description><![CDATA[STATEID: 133BR C1087143<br>PARCELID: BR C1087143<br>PSTLADRESS: 20185 INDEPENDENCE DR C, BROOKFIELD, WI 53045<br>SITEADRESS: 20185 INDEPENDENCE DR C<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 112900<br>LNDVALUE: 35000<br>IMPVALUE: 77900<br>ESTFMKVALU: 112500<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087143</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087143</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20185 INDEPENDENCE DR C, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20185 INDEPENDENCE DR C</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>112900.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>77900.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>112500.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ANDERSON SALLY</name>
+        <description><![CDATA[STATEID: 133BR C1087121<br>PARCELID: BR C1087121<br>PSTLADRESS: 20275 INDEPENDENCE DR A, BROOKFIELD, WI 53045<br>SITEADRESS: 20275 INDEPENDENCE DR A<br>PREFIX: <br>STREETNAME: INDEPENDENCE<br>STREETTYPE: DRIVE<br>SUFFIX: <br>PLACENAME: CITY OF BROOKFIELD<br>ZIPCODE: 53045<br>STATE: WI<br>CNTASSDVAL: 116400<br>LNDVALUE: 35000<br>IMPVALUE: 81400<br>ESTFMKVALU: 116000<br>GISACRES: 8.39<br>CONAME: WAUKESHA<br>LONGITUDE: -88.16493958<br>LATITUDE: 43.04748054]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="STATEID">
+            <value>133BR C1087121</value>
+          </Data>
+          <Data name="PARCELID">
+            <value>BR C1087121</value>
+          </Data>
+          <Data name="PSTLADRESS">
+            <value>20275 INDEPENDENCE DR A, BROOKFIELD, WI 53045</value>
+          </Data>
+          <Data name="SITEADRESS">
+            <value>20275 INDEPENDENCE DR A</value>
+          </Data>
+          <Data name="PREFIX">
+            <value/>
+          </Data>
+          <Data name="STREETNAME">
+            <value>INDEPENDENCE</value>
+          </Data>
+          <Data name="STREETTYPE">
+            <value>DRIVE</value>
+          </Data>
+          <Data name="SUFFIX">
+            <value/>
+          </Data>
+          <Data name="PLACENAME">
+            <value>CITY OF BROOKFIELD</value>
+          </Data>
+          <Data name="ZIPCODE">
+            <value>53045.0</value>
+          </Data>
+          <Data name="STATE">
+            <value>WI</value>
+          </Data>
+          <Data name="CNTASSDVAL">
+            <value>116400.0</value>
+          </Data>
+          <Data name="LNDVALUE">
+            <value>35000.0</value>
+          </Data>
+          <Data name="IMPVALUE">
+            <value>81400.0</value>
+          </Data>
+          <Data name="ESTFMKVALU">
+            <value>116000.0</value>
+          </Data>
+          <Data name="GISACRES">
+            <value>8.39</value>
+          </Data>
+          <Data name="CONAME">
+            <value>WAUKESHA</value>
+          </Data>
+          <Data name="LONGITUDE">
+            <value>-88.16493958</value>
+          </Data>
+          <Data name="LATITUDE">
+            <value>43.04748054</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -88.16493958,43.04748054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
