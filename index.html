@@ -25,17 +25,17 @@
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 11,
-          center: {lat: 41.876, lng: -87.624}
+          center: {lat: 43.02267447, lng: -88.07494618}
         });
 
-        var ctaLayer = new google.maps.KmlLayer({
-          url: 'https://gist.githubusercontent.com/codylettau/5c6e595f3e57246bb011a94335eb368d/raw/7102b9402fd0dc8bfc0ca28a378eefc8672b95f1/brookfield.kml',
-          map: map
-        });
+        var myParser = new geoXML3.parser({map: map});
+        myParser.parse('./brookfield.kml');
       }
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXposfem28_xveAlpQoIpuOsPfe3uA-Qo&callback=initMap">
     </script>
+    <script src="parser/polys/geoxml3.js"></script>
   </body>
 </html>
+
