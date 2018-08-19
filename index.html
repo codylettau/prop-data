@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Data Layer: Dynamic Styling</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <title>KML Layers</title>
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
         height: 100%;
+        z-index: 95;
+      }
+      #download {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        height: 50px;
+        line-height: 46px;
+        background-color: red;
+        color: #000;
+        font-size: 28px;
+        cursor: pointer;
+        text-align: center;
+        z-index: 96;
+      }
+      #data-url {
+        position: fixed;
+        top: 100px;
+        left: 50%;
+        margin-left: -250px;
+        width: 500px;
+        height: 50px;
+        line-height: 46px;
+        font-size: 24px;
+        text-align: center;
+        z-index: 100;
+        background-color: #fff;
+        color: red;
+      }
+      #data-go {
+        position: fixed;
+        top: 100px;
+        left: 50%;
+        margin-left: 270px;
+        height: 56px;
+        width: 100px;
+        font-size: 24px;
+        background-color: red;
+        color: #000;
+        z-index: 100;
+        cursor: pointer;
+      }
+      #input-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #333;
+        z-index: 99;
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
@@ -20,22 +71,192 @@
   </head>
   <body>
     <div id="map"></div>
+    <input id="data-url" type="text" placeholder="Enter KML data url here...">
+    <button id="data-go" onclick="loadData()">LOAD</button>
+    <div id="input-bg"></div>
+    <button id="download" onclick="copyList()">Copy List</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='togeojson.js'></script>
     <script>
 
+      var map,
+          mapData,
+          selectedMarker,
+          selectedList = [];
+
+      function loadData() {
+        let dataUrl = $('#data-url').val();
+        
+        $.ajax(dataUrl).done(function (xml) {
+            mapData = toGeoJSON.kml($.parseXML(xml));
+
+            initMap();
+            $('#input-bg').hide();
+            $('#data-url').hide();
+            $('#data-go').hide();
+        });
+      }
+
       function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 11,
+        var infowindow = new google.maps.InfoWindow();
+
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
           center: {lat: 43.02267447, lng: -88.07494618}
         });
 
-        var myParser = new geoXML3.parser({map: map});
-        myParser.parse('./brookfield.kml');
+        // Load GeoJSON.
+        /*
+        var promise = $.getJSON("brookfield.geojson"); //same as map.data.loadGeoJson();
+        promise.then(function(data){
+          cachedGeoJson = data; //save the geojson in case we want to update its values
+          map.data.addGeoJson(cachedGeoJson);  
+        });
+        */
+        map.data.addGeoJson(mapData);
+
+        function getInfoTemplate(marker) {
+          var descriptionHTML = marker.getProperty("description");
+
+          var removeBtnHtml = '';
+
+          if (selectedList.indexOf(marker) >= 0) {
+            removeBtnHtml = `<button class="remove-button" onclick="remove()">Remove</button>`
+          }
+
+          let html = `
+            <div style='width:300px;'>
+              ${descriptionHTML}
+              <br><br>
+              <button class="add-button" onclick="add()">Add to list</button>
+              ${removeBtnHtml}
+            </div>
+          `;
+
+          return html;
+        }
+
+        function handleClick(event) {
+          selectedMarker = event.feature;
+
+          infowindow.setContent(getInfoTemplate(selectedMarker));
+          // position the infowindow on the marker
+          infowindow.setPosition(event.feature.getGeometry().get());
+          // anchor the infowindow on the marker
+          infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
+          infowindow.open(map);
+        }
+
+        // When the user clicks, open an infowindow
+        map.data.addListener('click', handleClick);
+
+        // Set all markers to yellow to start
+        map.data.setStyle({
+          icon: 'http://maps.google.com/mapfiles/ms/icons/yellow.png'
+        });
+      }
+
+      function setMarkerIcon(marker, iconUrl) {
+        map.data.overrideStyle(marker, { icon: iconUrl });
+      }
+
+      function remove() {
+        var idx = selectedList.indexOf(selectedMarker);
+
+        if (idx >= 0) {
+          selectedList.splice(idx, 1);
+          setMarkerIcon(selectedMarker, 'http://maps.google.com/mapfiles/ms/icons/yellow.png');
+
+          console.log(selectedList.length);
+        }
+      }
+
+      function add() {
+        var idx = selectedList.indexOf(selectedMarker);
+
+        if (idx < 0) {
+          console.log('Selected: ', selectedMarker.getProperty('description'));
+
+          setMarkerIcon(selectedMarker, 'http://maps.google.com/mapfiles/ms/icons/red.png');
+          selectedList.push(selectedMarker);
+
+          console.log(selectedList.length);
+        }
+      }
+
+      function copy(text) {
+          var textArea = document.createElement("textarea");
+          textArea.value = text;
+          document.body.appendChild(textArea);
+          textArea.select();
+          document.execCommand("Copy");
+          textArea.remove();
+      }
+
+      function format(keys, values) {
+          var itemTemplate = {
+            CNTASSDVAL: '',
+            CONAME: '',
+            ESTFMKVALU: '',
+            GISACRES: '',
+            IMPVALUE: '',
+            LATITUDE: '',
+            LNDVALUE: '',
+            LONGITUDE: '',
+            Name: '',
+            PARCELID: '',
+            PLACENAME: '',
+            PREFIX: '',
+            PSTLADRESS: '',
+            SITEADRESS: '',
+            STATE: '',
+            STATEID: '',
+            STREETNAME: '',
+            STREETTYPE: '',
+            SUFFIX: '',
+            ZIPCODE: ''
+          };
+
+          keys.forEach(function (k, idx) {
+              if (itemTemplate[k] !== undefined) {
+                  itemTemplate[k] = values[idx];
+              }
+          });
+
+          return Object.values(itemTemplate).join(';');
+      }
+
+      function getListCSV() {
+        let listCsvData = [];
+
+        selectedList.forEach(m => {
+          var lines = m.getProperty('description').split('<br>'),
+              lineData = [],
+              keys = [],
+              csvData = '';
+
+          lines.forEach(function (l) {
+              var parts = l.split(': ');
+              keys.push(parts[0]);
+              lineData.push(parts[1]);
+          });
+
+          csvData = format(keys, lineData);
+          listCsvData.push(csvData);
+        });
+
+        return listCsvData;
+      }
+
+      function copyList() {
+        let dataCSV = getListCSV();
+
+        copy(dataCSV.join('\n'));
+        console.log('Saved properties copied!');
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXposfem28_xveAlpQoIpuOsPfe3uA-Qo&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXposfem28_xveAlpQoIpuOsPfe3uA-Qo">
     </script>
-    <script src="parser/polys/geoxml3.js"></script>
   </body>
 </html>
-
