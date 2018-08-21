@@ -116,8 +116,8 @@
         map.data.addGeoJson(mapData);
 
         function getInfoTemplate(marker) {
-          var descriptionHTML = marker.getProperty("description");
-
+          var descriptionHTML = `NAME: ${marker.getProperty('name') || marker.getProperty('Name')}<br>${marker.getProperty('description')}`
+          marker.setProperty('description', descriptionHTML);
           var removeBtnHtml = '';
 
           if (selectedList.indexOf(marker) >= 0) {
@@ -203,7 +203,7 @@
             LATITUDE: '',
             LNDVALUE: '',
             LONGITUDE: '',
-            Name: '',
+            NAME: '',
             PARCELID: '',
             PLACENAME: '',
             PREFIX: '',
